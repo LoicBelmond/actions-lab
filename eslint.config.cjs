@@ -1,6 +1,6 @@
 // eslint.config.cjs
-const js = require('@eslint/js')
-const globals = require('globals')
+const js = require('@eslint/js');
+const globals = require('globals');
 
 module.exports = [
   js.configs.recommended,
@@ -18,4 +18,4 @@ module.exports = [
       // add custom rules here if needed
     },
   },
-]
+];
